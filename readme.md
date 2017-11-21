@@ -89,7 +89,9 @@ Dillinger is currently extended with the following plugins. Instructions on how 
 
 ##### * Generate a token
 1. Open the database and query the users table:
+
     1.1 All passwords are "secret"
+    
     1.2 Only the first user has admin role
 
     For the demo, We will use the following credentials
