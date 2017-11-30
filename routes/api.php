@@ -46,7 +46,7 @@ Route::post('products/{product}/price', 'ProductsController@setPrice');
 
 
 //TRANSACTIONS ENDPOINTS
-Route::resource('transactions', 'InvoicesController',['except' => ['edit', 'create', 'destroy', 'update']]);
+Route::resource('invoices', 'InvoicesController',['except' => ['edit', 'create', 'destroy', 'update']]);
 
 
 // TOKEN GENERATOR
